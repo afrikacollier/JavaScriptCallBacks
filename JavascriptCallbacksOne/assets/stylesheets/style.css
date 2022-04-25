@@ -1,0 +1,36 @@
+#main, #container-first {
+    background-color: aquamarine;
+    border-radius: 0rem;
+    text-align: center;
+}
+
+body {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: large;
+}
+
+li{
+    background-color:aquamarine;
+    display: flexbox;
+    align-content: stretch;
+}
+
+#main-header {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    margin: 0%;
+}
+
+#b-image, #b-image-middle{
+    display: flexbox;
+    align-content: left;
+}
+

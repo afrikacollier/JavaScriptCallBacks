@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
+</head>
+<body>
+    <header id="main-header" class="bg-success text-white p-4 mb-3">
+        <div class="container">
+            <h1 id="header-title">Item Lister</h1>
+        </div>
+    </header>
+    <div class="container-first">
+        <div id="main" class="card card-body">
+            <h2 class="title">Add Items</h2>
+            <form id="whateverform" class="form-inline mb-3">
+                <input id="item" type="text" onfocus='this.value=""' class="form-control mr-2">
+                <button type="reset" id="button-one" class="btn btn-dark">Submit</button>
+            </form>
+            <h2 class="title">Items</h2>
+            <span>
+                <ul id="items" class="list-group">
+                    <li class="list-group-item">The Lord of The Rings</li>
+                    <li class="list-group-item">The Da Vinci Code</li>
+                    <li class="list-group-item">Le Petit Prince</li>
+                    <li class="list-group-item">A Tale of Two Cities</li>
+                </ul>
+            </span>
+            <span>
+                <ul id="myList"></ul>
+            </span>
+        </div>
+    </div>
+    <div class="container">
+        <span>
+            <img id='b-image' src="./assets/images/LordOfTheRings.webp">
+        </span>
+        <span>
+            <img id='b-image-middle' src="./assets/images/ATaleOfTwoCities.webp">
+        </span>
+    </div>
+    <script src="dom.js"></script>
+</body>
+</html>
